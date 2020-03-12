@@ -1,4 +1,5 @@
 import random
+
 user_accounts = {
     'cat': ['dfdss', 78493487],
     'dog': ['qwesfd', 89638492],
@@ -13,9 +14,12 @@ user_accounts = {
 }
 
 
-login = input('Please enter your login:')
+login = input('Please, enter your login:')
 if login in list(user_accounts.keys()):
-    print(user_accounts[login])
+    user_record = user_accounts[login]
+    password = input('Please, enter your password:')
+    if password == user_record[0]:
+        print(user_record[1])
 else:
     password = (input('Enter your password:'))
     secret = random.randint(1000, 1000000)
