@@ -5,4 +5,4 @@ print(number)
 
 
 a = str(number)
-print(a[-3])
+print(a[-4])
