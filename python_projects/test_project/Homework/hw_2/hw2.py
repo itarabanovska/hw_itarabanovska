@@ -56,7 +56,7 @@ i.tarabanovska@Eugenes-MBP hw2_4 % git add .
 i.tarabanovska@Eugenes-MBP hw2_4 % git commit -m "Thats a feature everybody will definitly enjoy"
 i.tarabanovska@Eugenes-MBP hw2_4 % nano finish.py
 i.tarabanovska@Eugenes-MBP hw2_4 % git add .
-i.tarabanovska@Eugenes-MBP hw2_4 % git commit -m "Feeling risky" 
+i.tarabanovska@Eugenes-MBP hw2_4 % git commit -m "Feeling risky"
 i.tarabanovska@Eugenes-MBP hw2_4 % git checkout master^
 
 done)
